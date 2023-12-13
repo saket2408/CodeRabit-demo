@@ -7,6 +7,8 @@ module.exports.hello = async (event) => {
       {
         message: 'Adding it to test the application',
         input: event,
+        email: event.email,
+        password: event.password
       },
       null,
       2
